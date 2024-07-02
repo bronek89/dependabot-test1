@@ -15,7 +15,7 @@
         "symfony/dependency-injection": "^6.2",
         "symfony/config": "^6.2",
         "symfony/error-handler": "^6.2",
-        "sentry/sdk": "^3.0",
+        "sentry/sdk": "^4.0",
         "symfony/http-kernel": "^6.2",
         "symfony/http-foundation": "^6.2",
         "symfony/routing": "^6.2",
