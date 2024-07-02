@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "composer" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    open-pull-requests-limit: 10
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
+    ignore:
+      - dependency-name: "symfony/*"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+    groups:
+      symfony:
+        patterns:
+          - "symfony/*"
+      twig:
+        patterns:
+          - "twig/*"
