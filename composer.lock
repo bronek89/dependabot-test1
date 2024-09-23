@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "055cf88ee29d709b96a9d724824024be",
+    "content-hash": "2513f641c908415006c912779e51af37",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -1343,16 +1343,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.2.118",
+            "version": "v1.2.120",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "9b8912ac5b78b780a0ead552b4c3dc9ddfdea4fd"
+                "reference": "2b325bdce46bbb8a2e96dc740ad37c743c9d8617"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/9b8912ac5b78b780a0ead552b4c3dc9ddfdea4fd",
-                "reference": "9b8912ac5b78b780a0ead552b4c3dc9ddfdea4fd",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/2b325bdce46bbb8a2e96dc740ad37c743c9d8617",
+                "reference": "2b325bdce46bbb8a2e96dc740ad37c743c9d8617",
                 "shasum": ""
             },
             "require": {
@@ -1389,9 +1389,9 @@
             ],
             "support": {
                 "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
-                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.118"
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.120"
             },
-            "time": "2024-04-23T17:07:05+00:00"
+            "time": "2024-09-15T14:31:21+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -10173,5 +10173,5 @@
     "platform-overrides": {
         "php": "8.1"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
